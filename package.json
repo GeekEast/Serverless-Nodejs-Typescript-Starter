@@ -18,5 +18,14 @@
     "typescript": "^3.2.4"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeekEast/Serverless-Nodejs-Typescript-Starter.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/GeekEast/Serverless-Nodejs-Typescript-Starter/issues"
+  },
+  "homepage": "https://github.com/GeekEast/Serverless-Nodejs-Typescript-Starter#readme"
 }
