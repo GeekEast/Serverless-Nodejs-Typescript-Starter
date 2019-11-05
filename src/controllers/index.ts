@@ -1,14 +1,6 @@
-import { APIGatewayProxyHandler } from 'aws-lambda';
 import 'source-map-support/register';
 
-export const hello: APIGatewayProxyHandler = async (event, _context) => {
-
-  console.log(event);
-
-  return {
-    statusCode: 200,
-    body: JSON.stringify({
-      message: 'Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!',
-    }),
-  };
+export const hello = async (_context) => {
+  const time = new Date();
+  console.log(`Your cron function "${_context.functionName}" ran at ${time}`);
 }
